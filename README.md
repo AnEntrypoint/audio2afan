@@ -8,7 +8,7 @@ license_link: >-
 
 ### Description:
 Audio2Face-3D-v2.3.1-Claire generates 3D facial animations from audio inputs, for use in applications such as video conferencing, virtual reality, and digital content creation.
-This model is ready for commercial/non-commercial use. <br> 
+This model is ready for commercial/non-commercial use. For source code, documentation, helper scripts, packaged builds, and links to all components in the Audio2Face-3D technology stack, visit the [Audio2Face-3D GitHub repository](https://github.com/NVIDIA/Audio2Face-3D) <br> 
 
 ### License/Terms of Use
 
