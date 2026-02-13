@@ -1,0 +1,26 @@
+{
+  "name": "audio2face-3d-sdk",
+  "version": "1.0.0",
+  "description": "Audio2Face-3D Browser and Node.js SDK",
+  "main": "audio2face-sdk-node.mjs",
+  "browser": "audio2face-sdk-browser.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "browser": "./audio2face-sdk-browser.js",
+      "node": "./audio2face-sdk-node.mjs",
+      "default": "./audio2face-sdk-browser.js"
+    }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-node.mjs"
+  },
+  "dependencies": {
+    "onnxruntime-node": "^1.21.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "keywords": ["audio2face", "facial-animation", "onnx", "webgl"],
+  "license": "MIT"
+}
