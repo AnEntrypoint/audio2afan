@@ -1,5 +1,5 @@
 {
-  "name": "afan",
+  "name": "audio2afan",
   "version": "1.0.0",
   "description": "Audio-driven facial animation for VRM — convert audio to ARKit blendshapes",
   "main": "./src/index.mjs",
