@@ -12,7 +12,7 @@ if (fs.existsSync(modelPath)) {
   process.exit(0)
 }
 
-const MODEL_URL = 'https://github.com/AnEntrypoint/afan/releases/download/v1.0.0/model.onnx'
+const MODEL_URL = 'https://github.com/AnEntrypoint/audio2afan/raw/main/model.onnx'
 
 console.log('Downloading model... (this may take a few minutes)')
 
