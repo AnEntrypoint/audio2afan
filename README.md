@@ -64,7 +64,7 @@ server.start(3000)
 npm test
 ```
 
-Runs 16 inline tests covering core logic, animation roundtrip, SDK structure, and end-to-end pipeline.
+Runs 60 inline tests covering core logic, config loading, emotions, smoothing, ring buffer, resampling, output parsing, animation writer/reader, binary format, SDK model loading, processAudioFile, and end-to-end pipeline.
 
 ## Animation Format (.afan)
 
