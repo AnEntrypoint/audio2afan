@@ -122,7 +122,7 @@ export function createAudio2FaceAPI(options = {}) {
         res.json({
           success: true,
           fps,
-          duration: animBuffer.byteLength / (52 + 16) / fps,
+          duration: (animBuffer.byteLength - 12) / 52 / fps,
           data: animBuffer.toString('base64')
         })
       } else if (format === 'json') {

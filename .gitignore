@@ -3,3 +3,6 @@ node_modules/
 *.log
 .DS_Store
 .glootie-stop-verified
+.gm-stop-verified
+
+.code-search/

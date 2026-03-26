@@ -58,6 +58,14 @@ const server = createAudio2FaceAPI({ fps: 30 })
 server.start(3000)
 ```
 
+## Testing
+
+```bash
+npm test
+```
+
+Runs 60 inline tests covering core logic, config loading, emotions, smoothing, ring buffer, resampling, output parsing, animation writer/reader, binary format, SDK model loading, processAudioFile, and end-to-end pipeline.
+
 ## Animation Format (.afan)
 
 Compact binary format for facial animation:
